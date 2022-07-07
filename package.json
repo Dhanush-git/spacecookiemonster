@@ -1,0 +1,19 @@
+{
+  "name": "otosan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "twitter-api-v2": "^1.12.3"
+  }
+}
