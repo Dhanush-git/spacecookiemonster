@@ -18,7 +18,7 @@ const tweet = async() =>{
 var sendTweetJob = new CronJob('0 0 * * *',()=>{
     console.log("job triggered");
     tweet()
-})
+},{sheduled:true,timezome:'Asia/Kolkata'})
 
 
 sendTweetJob.start()
