@@ -15,9 +15,10 @@ const tweet = async() =>{
     }
 }
 
-var sendTweetJob = new CronJob('0 0 23 * *',()=>{
-    console.log("job started");
+var sendTweetJob = new CronJob('0 0 * * *',()=>{
+    console.log("job triggered");
     tweet()
 })
+
 
 sendTweetJob.start()
